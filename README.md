@@ -84,8 +84,12 @@ docker ps | grep devops-skills-radar
 **Access the application:**
 Open your browser and navigate to:
 ```
-http://localhost:30999
+http://<SERVER_IP>:30999
 ```
+
+Replace `<SERVER_IP>` with your server's IP address. For example:
+- If running locally: `http://localhost:30999` or `http://127.0.0.1:30999`
+- If running on a remote server: `http://192.168.1.100:30999` (use your server's actual IP)
 
 **View container logs:**
 ```bash
